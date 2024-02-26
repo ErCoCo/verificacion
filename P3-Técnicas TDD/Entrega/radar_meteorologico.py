@@ -18,6 +18,8 @@ def alcance_del_radar(T: float, tau: float) -> float:
         raise ValueError("T no puede ser menor que tau")
 
     
+
+
     #se ponen todas lass unidades en segundos, solo en necesario tau, T ya lo está
     tau=tau/pow(10,6)
 
